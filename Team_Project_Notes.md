@@ -21,7 +21,7 @@
 
 ### Work Breakdown Structure (WBS)
 
-1 Autonomous Underwater Vehicle
+1 Autonomous Underwater Vehicle (AUV)
 
     1.1. Program Management
        1.1.1. Technical Reports, Briefing Materials/Meeting Minutes - Miscellaneous
@@ -55,7 +55,7 @@
                 1.2.4.4.1. Acceptance Testing TRR
                 1.2.4.4.2. Qualification Testing TRR
             1.2.4.5. Pre Low Rate Initial Production (LRIP) Review **MFR Readiness?**
-    1.3. Hardware Engineering (Needs further breakdown)
+    1.3. Hardware Engineering
        1.3.1. Propulsion & Steering
             1.3.1.1. Motor
                 1.3.1.1.1. Motor Trade Study
@@ -67,14 +67,10 @@
                 1.3.1.2.3. Battery Integration
                 1.3.1.2.4. Cable Harness
                 1.3.1.2.5. Charging Interface
-            1.3.1.3. Steering Subsystem
+            1.3.1.3. Steering/Depth Control Subsystem
                 1.3.1.3.1. Servomotor Selection
                 1.3.1.3.2. Servomotor Integration
-            1.3.1.4. Payload Integration Hardware
-                1.3.1.4.1. Payload Integration Design
-                1.3.1.4.2. Payload Integration Package (PIP) Prototype
-                1.3.1.4.3. PIP Prototype Test w/ Integrated Sensors
-                1.3.1.4.4. Updated PIP Design
+                1.3.1.3.3. Depth Control
        1.3.2. Sensor Payload (Sonar, IR, etc.)
             1.3.2.1. Sonar Sensor
                 1.3.2.1.1. Sonar Sensor Trade Study
@@ -92,12 +88,43 @@
                 1.3.2.4.1. Inertial Navigation Sensor Trade Study
                 1.3.2.4.2. Inertial Navigation Sensor Selection
                 1.3.2.4.3. Inertial Navigation Sensor Integration
+            1.3.2.5. Payload Integration Package
+                1.3.2.5.1. Payload Integration Design
+                1.3.2.5.2. Payload Integration Package (PIP) Prototype
+                1.3.2.5.3. PIP Prototype Test w/ Integrated Sensors
+                1.3.2.5.4. Updated PIP Design
        1.3.3. Manipulator
-       1.3.4. Communications
-       1.3.4. Operations Van
-       1.3.5. Support Vessel Integration
-       1.3.6. Launch and Recovery System
-    1.4. Software Engineering
+            1.3.3.1. Manipulator Design
+            1.3.3.2. Manipulator Integration
+       1.3.4. Communications Module
+            1.3.4.1. Low Frequency (LF) Radio
+                1.3.4.1.1. LF Radio Trade Study
+                1.3.4.1.2. LF Radio Selection
+                1.3.4.1.3. LF Radio Integration
+            1.3.4.2. Ultra High Frequency (UHF) Radio
+                1.3.4.2.1. UHF Radio Trade Study
+                1.3.4.2.2. UHF Radio Selection
+                1.3.4.2.3. UHF Radio Integration    
+       1.3.4. Controller
+            1.3.4.1. Controller Trade Study
+            1.3.4.2. Controller Selection
+            1.3.4.3. Controller Integration 
+                1.3.4.3.1. Propulsion, Steering, Depth Control Integration
+                1.3.4.3.2. Navigation (INS) Integration
+                1.3.4.3.3. Manipulator Control Integration
+                1.3.4.3.4. Communications Integration
+       1.3.5. Operations Van
+            1.3.5.1. Launch and Recovery System
+                1.3.5.1.1. Transport Rails
+                1.3.5.1.2. Winch
+                1.3.5.1.3. AUV Launch/Recovery Attachment
+            1.3.5.2. Storage Rack
+            1.3.5.3. Maintenance Area
+            1.3.5.4. Mission Planning/Operations Area
+       1.3.6. Support Vessel Integration
+            1.3.6.1. Installation/Removal Procedures
+            1.3.6.2. Operational Procedures
+    1.4. Software (SW) Engineering
        1.4.1. AUV Software
             1.4.1.1. Navigation
             1.3.1.2. Propulsion and Steering Control
@@ -106,12 +133,22 @@
             1.4.1.4. "Target" Acquisition & Positioning
             1.4.1.5. Manipulator Operation
             1.4.1.6. Manual Override
-       1.4.2. Mission Planning
-       1.4.3. Data Analysis 
+       1.4.2. Mission Planning SW
+            1.4.2.1. Geographical Information System (GIS) Maps
+            1.4.2.2. Mission Parameters
+       1.4.3. Data Analysis SW
+            1.4.3.1. Imagery Analysis
+            1.4.3.3. Navigation Model Update
     1.5. Support and Training
        1.5.1. Technical Manuals
        1.5.2. Training Manuals
     1.6. Integration and Test
+       1.6.1. Sensor Integration Testing
+       1.6.2. Propulsion and Navigation Testing
+       1.6.3. Manipulator Testing
+       1.6.4. Integrated Manipulator Testing
+       1.6.5. Communication Testing
+       1.6.6. Integrated System Testing
     1.7. Operations and Maintenance (O&M) Support
 
 ### Statement of Work (SOW)
