@@ -21,9 +21,17 @@
 
 ### Work Breakdown Structure (WBS)
 
-1 Autonomous Underwater Vehicle (Should be 1, w/ others 1.1+ as appropriate)
+1 Autonomous Underwater Vehicle
 
     1.1. Program Management
+       1.1.1. Technical Reports, Briefing Materials/Meeting Minutes - Miscellaneous
+       1.1.2. Progress, Status and Management Reports
+       1.1.3. Quarterly Program Management Reviews (PMR)
+       1.1.4. Periodic Cost and Technical Progress Reports for Prime and Subcontracts
+       1.1.5. Statement of Work (SOW), Including Labor, Material and Other Direct Costs Breakdown
+       1.1.6. Integrated Master Schedule (IMS)
+       1.1.7. Risk Analysis and Management Plan
+       1.1.8. Periodic and Final Invoices
     1.2. Systems Engineering
        1.2.1. Systems Engineering Management Plan (SEMP)
        1.2.2. Test and Evaluation Management Plan (TEMP)
@@ -59,8 +67,31 @@
                 1.3.1.2.3. Battery Integration
                 1.3.1.2.4. Cable Harness
                 1.3.1.2.5. Charging Interface
+            1.3.1.3. Steering Subsystem
+                1.3.1.3.1. Servomotor Selection
+                1.3.1.3.2. Servomotor Integration
+            1.3.1.4. Payload Integration Hardware
+                1.3.1.4.1. Payload Integration Design
+                1.3.1.4.2. Payload Integration Package (PIP) Prototype
+                1.3.1.4.3. PIP Prototype Test w/ Integrated Sensors
+                1.3.1.4.4. Updated PIP Design
        1.3.2. Sensor Payload (Sonar, IR, etc.)
-            1.3.2.1 
+            1.3.2.1. Sonar Sensor
+                1.3.2.1.1. Sonar Sensor Trade Study
+                1.3.2.1.2. Sonar Sensor Selection
+                1.3.2.1.3. Sonar Sensor Integration
+            1.3.2.2. Infrared (IR) Sensor
+                1.3.2.2.1. IR Sensor Trade Study
+                1.3.2.2.2. IR Sensor Selection
+                1.3.2.2.3. IR Sensor Integration
+            1.3.2.3. Optical Sensor
+                1.3.2.3.1. Optical Sensor Trade Study
+                1.3.2.3.2. Optical Sensor Selection
+                1.3.2.3.3. Optical Sensor Integration
+            1.3.2.4. Inertial Navigation Sensor
+                1.3.2.4.1. Inertial Navigation Sensor Trade Study
+                1.3.2.4.2. Inertial Navigation Sensor Selection
+                1.3.2.4.3. Inertial Navigation Sensor Integration
        1.3.3. Manipulator
        1.3.4. Communications
        1.3.4. Operations Van
@@ -69,6 +100,7 @@
     1.4. Software Engineering
        1.4.1. AUV Software
             1.4.1.1. Navigation
+            1.3.1.2. Propulsion and Steering Control
             1.4.1.2. Sensor Operation and Data Collection
             1.4.1.3. Communication
             1.4.1.4. "Target" Acquisition & Positioning
