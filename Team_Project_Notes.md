@@ -114,7 +114,7 @@
                 1.3.4.3.3. Manipulator Control Integration
                 1.3.4.3.4. Communications Integration
        1.3.5. Operations Van
-            1.3.5.1. Launch and Recovery System
+            1.3.5.1. Launch and Recovery System (Sub MAPC?)
                 1.3.5.1.1. Transport Rails
                 1.3.5.1.2. Winch
                 1.3.5.1.3. AUV Launch/Recovery Attachment
@@ -154,3 +154,9 @@
 ### Statement of Work (SOW)
 
 ### (Schedule)/Critical Path Network (This seems silly)
+
+### Links
+
+[Hydroid'S LBS UAV](https://www.naval-technology.com/news/newshydroids-lbs-auv-enters-full-rate-production-us-navy/?cf-view)
+
+[MAPC Launch & Recovery](https://www.mapcorp.com/technologies-main/#launch)
