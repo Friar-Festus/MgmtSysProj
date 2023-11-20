@@ -51,10 +51,7 @@
             1.2.4.1. System Requirements Review (SRR)
             1.2.4.2. Preliminary Design Review (PDR)
             1.2.4.3. Critical Design Review (CDR)
-            1.2.4.4. Test Readiness Reviews (TRR)
-                1.2.4.4.1. Acceptance Testing TRR
-                1.2.4.4.2. Qualification Testing TRR
-            1.2.4.5. Pre Low Rate Initial Production (LRIP) Review **MFR Readiness?**
+            1.2.4.4. Demonstration Test Readiness Reviews (TRR)
     1.3. Hardware Engineering
        1.3.1. Propulsion & Steering
             1.3.1.1. Motor
@@ -154,7 +151,13 @@
        1.6.4. Integrated Manipulator Testing
        1.6.5. Communication Testing
        1.6.6. Integrated System Testing
-    1.7. Operations and Maintenance (O&M) Support
+    1.7. Operational Demonstration
+       1.7.1. Demonstration Test Plan
+       1.7.2. Demonstration Dry Run
+       1.7.3. Dry Run Review
+       1.7.4. Demonstration Test Plan Update
+       1.7.5. Operational Demonstration
+       1.7.6. Operational Demonstration Report
 
 ### Statement of Work (SOW)
 
