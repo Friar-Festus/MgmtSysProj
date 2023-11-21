@@ -168,3 +168,5 @@
 [Hydroid'S LBS UAV](https://www.naval-technology.com/news/newshydroids-lbs-auv-enters-full-rate-production-us-navy/?cf-view)
 
 [MAPC Launch & Recovery](https://www.mapcorp.com/technologies-main/#launch)
+
+[Tom's GitHub for Team Artifacts](https://github.com/Friar-Festus/MgmtSysProj)
