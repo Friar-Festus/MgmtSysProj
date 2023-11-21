@@ -43,10 +43,10 @@
                 1.2.3.1.4. Power and Distribution Specification
                 1.2.3.1.5. Manipulator Module Specification
                 1.2.3.1.6. Communications Module Specification
-                1.2.3.1.7. Support Equipment Specification
-                     1.2.3.1.7.1. Operations Van Specification
-                     1.2.3.1.7.2. Support Vessel Integration Interface Specification
-                     1.2.3.1.7.3. Launch and Recovery System Specification
+            1.2.3.2. Support Equipment Specification
+                1.2.3.2.1. Operations Van Specification
+                    1.2.3.2.1.1. Support Vessel Integration Interface Specification
+                    1.2.3.2.1.2. Launch and Recovery System Specification
        1.2.4. Systems Engineering Technical Reviews
             1.2.4.1. System Requirements Review (SRR)
             1.2.4.2. Preliminary Design Review (PDR)
