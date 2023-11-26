@@ -45,8 +45,8 @@
                 1.2.3.1.6. Communications Module Specification
             1.2.3.2. Support Equipment Specification
                 1.2.3.2.1. Operations Van Specification
-                    1.2.3.2.1.1. Support Vessel Integration Interface Specification
-                    1.2.3.2.1.2. Launch and Recovery System Specification
+                1.2.3.2.2. Support Vessel Integration Interface Specification
+                1.2.3.2.3. Launch and Recovery System Specification
        1.2.4. Systems Engineering Technical Reviews
             1.2.4.1. System Requirements Review (SRR)
             1.2.4.2. Preliminary Design Review (PDR)
@@ -107,25 +107,25 @@
                 1.3.4.2.1. UHF Radio Trade Study
                 1.3.4.2.2. UHF Radio Selection
                 1.3.4.2.3. UHF Radio Integration    
-       1.3.4. Controller
-            1.3.4.1. Controller Trade Study
-            1.3.4.2. Controller Selection
-            1.3.4.3. Controller Integration 
-                1.3.4.3.1. Propulsion, Steering, Depth Control Integration
-                1.3.4.3.2. Navigation (INS) Integration
-                1.3.4.3.3. Manipulator Control Integration
-                1.3.4.3.4. Communications Integration
-       1.3.5. Operations Van
-            1.3.5.1. Launch and Recovery System (Sub MAPC?)
-                1.3.5.1.1. Transport Rails
-                1.3.5.1.2. Winch
-                1.3.5.1.3. AUV Launch/Recovery Attachment
-            1.3.5.2. Storage Rack
-            1.3.5.3. Maintenance Area
-            1.3.5.4. Mission Planning/Operations Area
-       1.3.6. Support Vessel Integration
-            1.3.6.1. Installation/Removal Procedures
-            1.3.6.2. Operational Procedures
+       1.3.5. Controller
+            1.3.5.1. Controller Trade Study
+            1.3.5.2. Controller Selection
+            1.3.5.3. Controller Integration 
+                1.3.5.3.1. Propulsion, Steering, Depth Control Integration
+                1.3.5.3.2. Navigation (INS) Integration
+                1.3.5.3.3. Manipulator Control Integration
+                1.3.5.3.4. Communications Integration
+       1.3.6. Operations Van
+            1.3.6.1. Launch and Recovery System (Sub MAPC?)
+                1.3.6.1.1. Transport Rails
+                1.3.6.1.2. Winch
+                1.3.6.1.3. AUV Launch/Recovery Attachment
+            1.3.6.2. Storage Rack
+            1.3.6.3. Maintenance Area
+            1.3.6.4. Mission Planning/Operations Area
+       1.3.7. Support Vessel Integration
+            1.3.7.1. Installation/Removal Procedures
+            1.3.7.2. Operational Procedures
     1.4. Software (SW) Engineering
        1.4.1. AUV Software
             1.4.1.1. Navigation
