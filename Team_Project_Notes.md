@@ -47,6 +47,9 @@
                      1.2.3.1.7.1. Operations Van Specification
                      1.2.3.1.7.2. Support Vessel Integration Interface Specification
                      1.2.3.1.7.3. Launch and Recovery System Specification
+                1.2.3.1.8. AUV Software Specification
+                1.2.3.1.9. Mission Planning Software Specification
+                1.2.3.1.10. Data Analysis Software Specification
        1.2.4. Systems Engineering Technical Reviews
             1.2.4.1. System Requirements Review (SRR)
             1.2.4.2. Preliminary Design Review (PDR)
@@ -54,7 +57,7 @@
             1.2.4.4. Test Readiness Reviews (TRR)
                 1.2.4.4.1. Acceptance Testing TRR
                 1.2.4.4.2. Qualification Testing TRR
-            1.2.4.5. Pre Low Rate Initial Production (LRIP) Review **MFR Readiness?**
+            1.2.4.5. Manufacturing Readiness Review
     1.3. Hardware Engineering
        1.3.1. Propulsion & Steering
             1.3.1.1. Motor
@@ -106,7 +109,7 @@
                 1.3.4.2.2. UHF Radio Selection
                 1.3.4.2.3. UHF Radio Integration
             1.3.4.3. Modulator/Demodulator Integration
-            1.3.4.4. Full Communication Module Integration  
+            1.3.4.4. Full Communication Module Integration
        1.3.5. Controller
             1.3.5.1. Controller Trade Study
             1.3.5.2. Controller Selection
@@ -119,17 +122,17 @@
             1.3.6.1. Structural Housing Design Drawings
             1.3.6.2. Structural Housing Fabricated
             1.3.6.3. AUV Integration
-       1.3.6. Operations Van
-            1.3.6.1. Launch and Recovery System (Sub MAPC?)
-                1.3.6.1.1. Transport Rails
-                1.3.6.1.2. Winch
-                1.3.6.1.3. AUV Launch/Recovery Attachment
-            1.3.6.2. Storage Rack
-            1.3.6.3. Maintenance Area
-            1.3.6.4. Mission Planning/Operations Area
-       1.3.7. Support Vessel Integration
-            1.3.7.1. Installation/Removal Procedures
-            1.3.7.2. Operational Procedures
+       1.3.7. Operations Van
+            1.3.7.1. Launch and Recovery System (Sub MAPC?)
+                1.3.7.1.1. Transport Rails
+                1.3.7.1.2. Winch
+                1.3.7.1.3. AUV Launch/Recovery Attachment
+            1.3.7.2. Storage Rack
+            1.3.7.3. Maintenance Area
+            1.3.7.4. Mission Planning/Operations Area
+       1.3.8. Support Vessel Integration
+            1.3.8.1. Installation/Removal Procedures
+            1.3.8.2. Operational Procedures
     1.4. Software (SW) Engineering
        1.4.1. AUV Software
             1.4.1.1. Navigation
@@ -146,8 +149,8 @@
             1.4.3.1. Imagery Analysis
             1.4.3.3. Navigation Model Update
     1.5. Support and Training
-       1.5.1. Technical Manuals
-       1.5.2. Training Manuals
+       1.5.1. Technical Manuals - Drafts
+       1.5.2. Training Manuals - Drafts
     1.6. Integration and Test
        1.6.1. Sensor Integration Testing
        1.6.2. Propulsion and Navigation Testing
@@ -170,6 +173,79 @@
 - [ ] Include material compatibility analysis
 
 ### (Schedule)/Critical Path Network (This seems silly)
+
+### Work Breakdown Structure (WBS) - Phase II Outline
+
+1 Autonomous Underwater Vehicle (AUV)
+
+    1.1. Program Management
+       1.1.1. Technical Reports, Briefing Materials/Meeting Minutes - Miscellaneous
+       1.1.2. Progress, Status and Management Reports
+       1.1.3. Quarterly Program Management Reviews (PMR)
+       1.1.4. Periodic Cost and Technical Progress Reports for Prime and Subcontracts
+       1.1.5. Statement of Work (SOW), Including Labor, Material and Other Direct Costs Breakdown
+       1.1.6. Integrated Master Schedule (IMS)
+       1.1.7. Risk Analysis and Management Plan
+       1.1.8. Periodic and Final Invoices
+    1.2. Systems Engineering
+       1.2.1. Systems Engineering Management Plan (SEMP)
+       1.2.2. Test and Evaluation Management Plan (TEMP)
+       1.2.3. Requirement Specifications
+            1.2.3.1. Autonomous Underwater Vehicle (AUV) Specification
+                1.2.3.1.1. Propulsion System Specification
+                1.2.3.1.2. Sensor Module Specification
+                1.2.3.1.3. Housing Specification
+                1.2.3.1.4. Power and Distribution Specification
+                1.2.3.1.5. Manipulator Module Specification
+                1.2.3.1.6. Communication Module Specification
+                1.2.3.1.7. Support Equipment Specification
+                     1.2.3.1.7.1. Operations Van Specification
+                     1.2.3.1.7.2. Support Vessel Integration Interface Specification
+                     1.2.3.1.7.3. Launch and Recovery System Specification
+       1.2.4. Systems Engineering Technical Reviews
+            1.2.4.1. System Requirements Review (SRR)
+            1.2.4.2. Preliminary Design Review (PDR)
+            1.2.4.3. Critical Design Review (CDR)
+            1.2.4.4. Test Readiness Reviews (TRR)
+                1.2.4.4.1. Acceptance Testing TRR
+                1.2.4.4.2. Qualification Testing TRR
+            1.2.4.5. Manufacturing Readiness Review
+    1.3. Hardware Engineering - Finalize Design
+       1.3.1. Identify Updates Based on Prototype Demonstration
+       1.3.2. Implement Design Updates
+       1.3.3. Generate Production Plans, Drawings, etc.
+            1.3.3.1. Propulsion & Steering
+            1.3.3.2. Sensor Payload (Sonar, IR, Optical, Intertial Nav)
+            1.3.3.3. Manipulator
+            1.3.3.4. Communication Module
+                1.3.3.4.1. Encryption Unit
+                1.3.3.4.2. Full Communication Module Integration
+            1.3.3.5. Controller - Integrate Sensor Front Ends
+            1.3.3.6. Structural Housing
+            1.3.3.7. Operations (Transport, Launch & Recovery, Support Vessel Integration)
+    1.4. Software (SW) Engineering - Finalize Design
+       1.4.1. AUV Software Updated Based on Prototype Demonstration
+       1.4.2. Mission Planning SW Updated Based on Prototype Demonstration
+       1.4.3. Data Analysis SW Updated Based on Prototype Demonstration
+    1.5. Support and Training
+       1.5.1. Technical Manuals
+       1.5.2. Training Manuals
+    1.6. Integration and Test
+       1.6.1. Subsystem Integration Tests 
+       1.6.2. Integrated System Testing
+    1.7. Manufacturing
+       1.7.1. Purchasing of Materials
+       1.7.2. Facility Setup
+       1.7.3. Low-Rate Initial Production
+       1.7.4. Full-Rate Production
+    1.8. Production Testing (Acceptance, Verification)
+       1.8.1. Acceptance/Verification Test Plans
+       1.8.2. Test Dry Runs
+       1.8.3. Dry Run Reviews
+       1.8.4. Test Plan Updates
+       1.8.5. Verification Testing
+       1.8.6. Verification Test Report
+       1.8.7. Acceptance Testing of Each Production AUV
 
 ### Links
 
