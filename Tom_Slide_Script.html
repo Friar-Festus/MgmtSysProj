@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CONOPS</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="conops">CONOPS</h1>
+<ul>
+<li>The concept of operations for the AUV is depicted here.</li>
+<li>We start with the AUV in storage and transport it to the area of operations, using as much of the existing dolphin program infrastructure as possible.</li>
+<li>Once set up at the AO, the AUV is loaded with mission parameters such as navigation profile, geo-fencing limits, target ID, and so forth. In production units the communication module would be loaded with encryption keys if necessary for the mission.</li>
+<li>The AUV is then launched to perform its mission. Some mission types are listed here:
+<ul>
+<li>Intelligence, surveillance and reconnaissance (ISR),</li>
+<li>Mine (or other weapon) detection, and</li>
+<li>Reusable target recovery.</li>
+</ul>
+</li>
+<li>Use of an AUV over dolphins has the advantages of a more stable platform for ISR and real-time data transfer during a mission using low-frequency communications. In addition more dexterous physical tasks are possible through the use of interchangeable end effectors for the manipulator arm.</li>
+<li>After mission completion the AUV returns to the launch point, surfaces, and is recovered along with any retrieved objects.</li>
+<li>Sensor data is offloaded for analysis and as inputs for improving future autonomous performance.</li>
+<li>The AUV is washed down with freshwater and any required maintenance is performed prior to the next mission or returning the AUV to its home base.</li>
+</ul>
+<h1 id="work-breakdown-structure-wbs">Work Breakdown Structure (WBS)</h1>
+<ul>
+<li>The WBS lists the major tasks to be performed during this Phase I period of performance. The Phase I WBS is provided in both graphical format as shown here and in text format with some additional detail. The textual document also contains a high-level WBS for Phase II.</li>
+<li>The WBS has seven main headings, which will be discussed in more detail for the Statement of Work.
+<ul>
+<li>Program Management</li>
+<li>Systems Engineering</li>
+<li>Hardware Engineering</li>
+<li>Software Engineering</li>
+<li>Support &amp; Training</li>
+<li>Integration &amp; Test</li>
+<li>Operational Demonstration</li>
+</ul>
+</li>
+</ul>
+<h1 id="statement-of-work-sow">Statement of Work (SOW)</h1>
+<h2 id="overview-slide">Overview Slide</h2>
+<ul>
+<li>The SOW follows roughly the same outline of the WBS, though Specialty Engineering such as reliability and structural engineering is broken out of Hardware Engineering and the Demonstration Test activity is folded into Integration &amp; Test.</li>
+</ul>
+<h2 id="program-management-slide">Program Management Slide</h2>
+<ul>
+<li>Very briefly list... Standard PM activities.</li>
+</ul>
+<h2 id="systems-engineering-slide">Systems Engineering Slide</h2>
+<ul>
+<li>Very briefly list... Standard SE activities</li>
+</ul>
+<h2 id="hardware-engineering-slide">Hardware Engineering Slide</h2>
+<ul>
+<li>Trade studies will be performed for the following components to select the final configuration.
+<ul>
+<li>List items shown</li>
+<li>Long lead items will be identified as soon as possible in the preliminary development phase in order to reduce risk going into Phase II by placing purchase orders early enough to meet the LRIP schedule.</li>
+</ul>
+</li>
+<li>Integration testing with the AUV controller/emulator will be conducted as soon as each subsystem/module is developed to reduce final integration risk.</li>
+</ul>
+<h2 id="software-engineering-slide">Software Engineering Slide</h2>
+<ul>
+<li>Software development comprises three main computer software configuration items (CSCIs):
+<ul>
+<li>AUV software to control the following:
+<ul>
+<li>Navigation</li>
+<li>Propulsion, steering and depth control</li>
+<li>Sensor operation &amp; data collection</li>
+<li>Communication (telemetry, data, external control)</li>
+<li>Target acquisition &amp; positioning</li>
+<li>Manipulator operation</li>
+<li>Manual override</li>
+</ul>
+</li>
+<li>Mission Planning SW
+<ul>
+<li>GIS map loading</li>
+<li>Geo-fencing</li>
+<li>Loading of mission parameters</li>
+</ul>
+</li>
+<li>Data Analysis SW (may not be a single CSCI)
+<ul>
+<li>Imagery analysis</li>
+<li>Navigation model updates</li>
+<li>Target acquisition model updates</li>
+<li>Sensor analysis</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="integration--test-slide">Integration &amp; Test Slide</h2>
+<ul>
+<li>As noted previously, each hardware module will be tested with the AUV controller or emulator as it is being developed.</li>
+<li>Fully integrated testing will be performed:
+<ul>
+<li>Dry - on land</li>
+<li>Wet - non-operational hydrostatic testing</li>
+<li>Wet - operational</li>
+<li>Demonstration dry run</li>
+<li>Operational demonstration</li>
+</ul>
+</li>
+</ul>
+
+        
+        
+    </body>
+    </html>
